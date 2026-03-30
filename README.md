@@ -146,37 +146,6 @@ When a log modal is opened, the frontend polls `/api/tasks/{task_id}/logs` every
 
 AI tools were used to assist with UI layout planning and interaction refinement.
 
-### 1. Dashboard Layout Design
-
-AI-assisted ideation was used to organise the dashboard into:
-
-- Hero section
-- Cluster overview
-- Worker monitoring
-- Task execution centre
-- Live log modal
-
-### 2. Log Auto-Scroll – Initial Issue
-
-The initial implementation always forced the log modal to scroll to the bottom whenever logs updated.
-
-This caused poor UX because users reviewing historical logs would be pulled back to the latest line.
-
-### 3. Improved Log Scrolling Behaviour
-
-The final implementation was refined so that:
-
-- logs auto-scroll only when the user is already near the bottom
-- manual scrolling upward preserves the user’s reading position
-- polling timers are cleaned up when the modal is closed
-
-This improvement balances:
-
-- real-time visibility
-- readability
-- interaction quality
-- performance stability
-
 ---
 
 ## Tech Stack
