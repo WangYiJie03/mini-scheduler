@@ -267,4 +267,4 @@ This project was built as a technical assessment and is intended to demonstrate:
 - backend state management and reliability mechanisms
 - real-time dashboard organisation on the frontend
 - live log handling and polling-based interaction design
-- practical use of AI-assisted UI and UX iteration
+- full-stack system design and implementation
