@@ -5,10 +5,14 @@ A full-stack distributed task scheduling system that simulates cluster-level wor
 ## Demo
 
 ### Dashboard Overview
+Real-time cluster monitoring with worker status, task distribution, and resource utilisation.
+
 ![Dashboard](./dashboard.png)
 
 ### Live Log Streaming
-![Dashboard](./logs.png)
+Interactive log viewer with smart auto-scroll behaviour that preserves user reading position.
+
+![Logs](./logs.png)
 
 ## Key Highlights
 
