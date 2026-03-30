@@ -142,12 +142,6 @@ When a log modal is opened, the frontend polls `/api/tasks/{task_id}/logs` every
 
 ---
 
-## AI-Assisted UX Improvements
-
-AI tools were used to assist with UI layout planning and interaction refinement.
-
----
-
 ## Tech Stack
 
 ### Backend
