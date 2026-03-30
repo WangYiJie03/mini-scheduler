@@ -227,17 +227,31 @@ mini-scheduler/
 │   ├── worker.py
 │   ├── demo_task.py
 │   └── requirements.txt
-├── docs/
-│   ├── ai-screenshots/
-│   └── AI_NOTES.md
 ├── frontend/
+│   ├── public/
+│   │   ├── favicon.svg
+│   │   └── icons.svg
 │   ├── src/
 │   │   ├── api/
+│   │   │   └── http.js
+│   │   ├── assets/
+│   │   │   ├── hero.png
+│   │   │   ├── vite.svg
+│   │   │   └── vue.svg
 │   │   ├── components/
+│   │   │   ├── LogModal.vue
+│   │   │   ├── SummaryCards.vue
+│   │   │   ├── TaskTable.vue
+│   │   │   ├── WorkerCard.vue
+│   │   │   └── WorkerGrid.vue
 │   │   ├── views/
+│   │   │   └── Dashboard.vue
 │   │   ├── App.vue
 │   │   ├── main.js
 │   │   └── style.css
+│   ├── .gitignore
+│   ├── index.html
+│   ├── package-lock.json
 │   ├── package.json
 │   └── vite.config.js
 └── README.md
