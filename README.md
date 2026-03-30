@@ -167,6 +167,30 @@ When a log modal is opened, the frontend polls `/api/tasks/{task_id}/logs` every
 From the `backend` directory:
 
 ```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+
+**Windows**
+```bash
+venv\Scripts\activate
+```
+
+**macOS / Linux**
+```bash
+source venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Start the backend server:
+
+```bash
 uvicorn app.main:app --reload
 ```
 
