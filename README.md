@@ -2,6 +2,14 @@
 
 A full-stack distributed task scheduling system that simulates cluster-level workload allocation, worker monitoring, and real-time task execution tracking.
 
+## Demo
+
+### Dashboard Overview
+![Dashboard](./dashboard.png)
+
+### Live Log Streaming
+![Dashboard](./logs.png)
+
 ## Key Highlights
 
 - Designed and implemented a resource-aware scheduling algorithm inspired by **Bin Packing**
